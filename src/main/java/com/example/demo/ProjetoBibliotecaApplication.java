@@ -1,5 +1,7 @@
 package com.example.demo;
 
+import com.example.demo.entities.Usuario;
+import com.example.demo.repositories.UsuarioRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,8 +11,9 @@ public class ProjetoBibliotecaApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(ProjetoBibliotecaApplication.class, args);
-
-		System.out.println("\nInit");
+		Object Usuario;
+		Usuario = "Declaração";
+		System.out.println(Usuario);
 	}
 
 
